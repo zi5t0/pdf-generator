@@ -24,7 +24,8 @@ flask run --host 0.0.0.0 --port 5000
 ```
 
 # Test the API
-Para probar el funcionamiento del microservicio simplemente podemos hacer una llamada a la URL donde se levante FLASK llamando por POST y pasándole como datos un JSON con el siguiente formato
+## POSTMAN
+Para probar el funcionamiento del microservicio abrimos POSTMAN, hacemos una llamada a la URL:PUERTO donde esté Flask llamando por POST y pasándole como datos un JSON con el siguiente formato
 ```json
 {
   "html_filepath": "0001/invoice.html",
@@ -35,4 +36,20 @@ Para probar el funcionamiento del microservicio simplemente podemos hacer una ll
     "first_name": "Tommy Nabou"
   }
 }
+```
+
+## MANUAL
+En una terminal ejecutamos el siguiente comando:
+```bash
+curl --location '127.0.0.1:5000/' \
+--header 'Content-Type: application/json' \
+--data '{
+  "html_filepath": "0001/invoice.html",
+  "css_filepath":  "0001/invoice.css",
+  "pdf_filename":  "resultado_final.pdf",
+  "data": {
+    "invoice_number": "27272772",
+    "first_name": "Tommy Nabou"
+  }
+}'
 ```
