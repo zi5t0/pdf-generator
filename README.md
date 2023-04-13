@@ -1,5 +1,10 @@
 
-# Setup proyecto
+# Project Setup
+
+## Quick setup (BETA)
+Para levantar el entorno rápidamente ejecutar script flask_up.sh
+
+## Manual setup 
 - Crear entorno virtual python o instalar paquetes en máquina local
 ```bash
 python3 -m venv venv
@@ -17,6 +22,3 @@ Ejecutar en la terminal estando en el entorno virtual el comando:
 ```bash
 flask run --host 0.0.0.0 --port 5000
 ```
-
-# Quick setup (BETA)
-Para levantar el entorno rápidamente ejecutar script flask_up.sh
