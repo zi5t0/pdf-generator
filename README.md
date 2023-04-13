@@ -17,3 +17,6 @@ Ejecutar en la terminal estando en el entorno virtual el comando:
 ```bash
 flask run --host 0.0.0.0 --port 5000
 ```
+
+# Quick setup (BETA)
+Para levantar el entorno rápidamente ejecutar script flask_up.sh
