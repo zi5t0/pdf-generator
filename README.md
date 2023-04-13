@@ -4,6 +4,7 @@
 - Cambiar en producción el comando para levantar flask por un servidor WSGI
 - Revisar README en busca de erratas
 - Optimizar código FLASK
+- Refactorizar quitando code smells y usando SOLID
 
 # Project Setup
 
