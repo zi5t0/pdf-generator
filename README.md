@@ -1,4 +1,10 @@
 
+### TO-DO:
+- Cambiar el script de setup por un fichero docker que se levante solo agnósticamente a la máquina
+- Cambiar en producción el comando para levantar flask por un servidor WSGI
+- Revisar README en busca de erratas
+- Optimizar código FLASK
+
 # Project Setup
 
 ## Quick setup (BETA)
