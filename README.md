@@ -5,6 +5,7 @@
 - Revisar README en busca de erratas
 - Optimizar código FLASK
 - Refactorizar quitando code smells y usando SOLID
+- Desacoplar la carpeta outputs y templates para poder coger los ficheros de un sistema de almacenamiento externo
 
 # Project Setup
 
