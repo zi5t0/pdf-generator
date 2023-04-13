@@ -53,3 +53,11 @@ curl --location '127.0.0.1:5000/' \
   }
 }'
 ```
+
+# EXPECTED BEHAVIOR
+Si se ha generado el PDF correctamente la llamada a la API deberá devolver un String con la ruta donde se ha generado el fichero PDF.
+Si ha habido algún error al geenrar el PDF o recibir los datos la API devolverá un error 500 con el siguiente texto: 
+```json
+Fail generating PDF file
+```
+
