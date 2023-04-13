@@ -27,7 +27,6 @@ def start(template_file, css_file, output_file, template_vars):
         return 'outputs/'+output_file
     except:
         return False
-    
 
 
 if __name__ == "__main__":
