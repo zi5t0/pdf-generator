@@ -17,6 +17,11 @@ def index():
         return output_filepath
 
 
+@app.route('/test')
+def test():
+    return "Hola mundo"
+
+
 def start(template_file, css_file, output_file, template_vars):
     try:
         env = Environment(loader=FileSystemLoader('./templates/'))
